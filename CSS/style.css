@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-logo
+{position: absolute;
+left: 3.9rem;
+top: 3.2rem;
+max-width: 100%;
+} 
+
+.container-fluid{
+    margin-left: 55rem !important;
+    margin-top:2rem;
+    max-width: 100%;
+}
+.nav-link{
+    font-size: 2rem;
+    margin: 1.9%;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+}
+.nav-link-active{
+    color: blue;
+
+}
+#connect-button{
+    background-image: linear-gradient(#21D4FD, #B721FF);
+    border-radius: 1rem;
+    color: white;
+    padding:0rem 2rem;
+    padding-top: 0.9rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+ #Home{
+    /* border: 2px solid black; */
+    position: relative;
+    height: 33rem;
+}
+#circles{
+    position: absolute;
+    right: 10rem;
+    top: 6rem;
+    max-width: 100%;
+}
+#home-image{
+    position: absolute;
+    right: 7rem;
+    top:9rem;
+    
+    
+}
+.home-content{
+    position:absolute;
+    /* border: 2px solid black; */
+    top:12rem;
+    left :5rem;
+}
+/*  */
+#line img{
+   max-width: 100%;
+}
+#home-heading{
+    
+font-family: Noto Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 4.5rem;
+line-height: 7.1rem;
+    background-color: #f3ec78;
+    background-image: linear-gradient(#B721FF,#21D4FD
+    );
+    background-size: 100%;
+    -webkit-background-clip: text;    
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+
+}
+#home-heading2{
+    font-family: Noto Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 39px;
+line-height: 39px;
+}
+.Main-heading{
+text-align: center;
+font-weight: 700;
+font-size: 50px;
+
+}
+.Main-heading h1{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 71px;
+}
+#about-us{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:  center;
+    max-width: 100%;
+}
+#left-about-us{
+    /* border: 2px solid black; */
+    position: relative;
+    margin-left:2rem ;
+    padding-left: 2rem;
+    max-width: 100%;
+
+}
+#right-about-us{
+    width: 70%;
+    /* border: 2px solid black; */
+    margin-left: 10rem;
+    padding: 1rem;
+    font-family: Noto Sans;
+    max-width: 100%;
+    margin-right: 5rem;
+    color: #3A3333
+    ;
+
+    
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 33px;
+    
+}
+#department{
+    /* border: 2px solid black; */
+    margin-bottom: -10rem;
+}
+#department-container{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+#left-department{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#right-department{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mid-department{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+.department-content{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.2rem;
+}
+.department-contentt{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    font-size: 1.2rem;
+}
+
