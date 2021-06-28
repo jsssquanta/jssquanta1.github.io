@@ -139,11 +139,32 @@
 }
 
 #event h1 {
+  text-align: center;
   font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 52px;
   position: relative;
   top: 150px;
-  left: 550px;
+  /* left: 550px; */
+}
+@media only screen and (max-width: 770px) {
+  #carousel-button-left {
+    display: none;
+  }
+
+  #carousel-button-right {
+    display: none;
+  }
+
+  #event h1 {
+    text-align: center;
+    left: 0;
+  }
+  .carousel .carousel-item > img {
+    padding: 40px;
+  }
+  .img-fluid {
+    padding: 20px;
+  }
 }

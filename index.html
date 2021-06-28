@@ -1,216 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/carousel.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="shortcut icon" href="#" />
+    <title>Quanta JSS</title>
+  </head>
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/carousel.css" />
-  <link rel="stylesheet" href="./css/bootstrap.css" />
-  <link rel="stylesheet" href="./css/responsive.css" />
-  
-  
-  <title>Quanta JSS</title>
-</head>
-
-<body>
-  
-  
+  <body onload="startTimer()">
     <!-- NAVIGATION BAR -->
     <section>
       <div class="container">
-          <div class="row">
-              <div class="col">
-                  <nav class="navbar navbar-expand-lg navbar-light ">
-                      <div class="container-fluid ">
-                          <div class="navbar-brand nav-img" href="#">
-                              <img src="images/Logo.png">
-                          </div>
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                              aria-expanded="false" aria-label="Toggle navigation">
-                              <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                  <li class="nav-item">
-                                      <a class="nav-link" aria-current="page" href="#">Home</a>
-                                  </li>
-                                  <li class="nav-item">
-                                      <a class="nav-link " aria-current="page" href="#">Team</a>
-                                  </li>
-                                  <li class="nav-item">
-                                      <a class="nav-link " aria-current="page" href="#">Resources</a>
-                                  </li>
-                                  <li class="nav-item">
-                                      <a class="nav-link " aria-current="page"  href="#">
-                                        <button id="connect-button">CONNECT</button></a>
-                                  </li>
-  
-  
-  
-                              </ul>
-  
-                          </div>
-                      </div>
-                  </nav>
+        <div class="row">
+          <div class="col">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container-fluid" id="quanta-nav">
+                <div class="navbar-brand nav-img" href="#">
+                  <img src="images/Logo.png" />
+                </div>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#"
+                        >Resources</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">
+                        <button id="connect-button">CONNECT</button></a
+                      >
+                    </li>
+                  </ul>
+                </div>
               </div>
-          </div>
-      </div>
-  </section>
-  <!-- END-OF-NAVIGATION BAR -->
-  <!-- HOME -->
-      <section>
-          <div id="home">
-              <div id="home-content">
-                  <h1 id="home-heading">Hola Technophiles!!</h1>
-                  <div class="home-cont">
-  
-                      <h3 class="home-heading2">We LEARN,EXPLORE &</h3>
-                      <h3 class="home-heading2">GROW Together</h3>
-                  </div>
-              </div>
-              <div id="home-img">
-                  <img src="images/Frame 15.png" id="circles" alt="" />
-  
-              </div>
-          </div>
-      </section>
-      <!-- END OF HOME -->
-      <div id="line">
-          <img src="images/Frame 14.png" alt="" />
-      </div>
-      <!-- ABOUT US -->
-      <section>
-          <h1 class="Main-heading">ABOUT US</h1>
-          <div id="aboutus">
-              <div id="aboutus-img">
-  
-                  <img src="images/Frame 3.png" id="" alt="" />
-              </div>
-              <div id="aboutus-content">
-                  <p>
-                      QUANTA is a part of departmental association, the main motto of quanta
-                      is to develop a hands on technical knowledge that encourages a person
-                      to move on with logical aptitude and to have a good command over
-                      Robotics & Embedded system.
-                  </p>
-              </div>
-          </div>
-      </section>
-      <!-- END OF ABOUT US -->
-  <!-- DEPARTMENTS -->
-      <section>
-          <div id="department">
-              <h1 class="Main-heading">DEPARTMENTS</h1>
-              <div id="department-container">
-                  <div id="left-department">
-                      <img src="images/Frame 7.png" alt="" />
-                      <h4>Technical</h4>
-                      <p class="department-contentt">
-                          Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur
-                          adipiscing elit.
-                      </p>
-                  </div>
-                  <div id="mid-department">
-                      <img src="images/Frame 8.png" alt="" />
-                      <h4>Web Development</h4>
-                      <p class="department-contentt">
-                          Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur
-                          adipiscing elit. lorem
-                      </p>
-                  </div>
-                  <div id="right-department">
-                      <img src="images/Frame 9.png" alt="" />
-                      <h4>Design</h4>
-                      <p class="department-contentt">
-                          Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur
-                          adipiscing elit.
-                      </p>
-                  </div>
-              </div>
-          </div>
-      </section>
-  <!-- END-OF-DEPARTMENTS -->
-  <!-- DEPARTMENTS SECTION ENDING -->
-  <!-- EVENTS SECTION STARTING -->
-  <section class="container my-5" id="event">
-    <h1>Events</h1>
-    <div id="carousel-event" class="d-flex flex-row">
-      <button id="carousel-button-left" onclick="movePrevCarousel()">
-        <img src="images/prev.png" alt="" />
-      </button>
-      <div class="carousel" id="carousel-quanta">
-        <div class="carousel-item" href="#one!">
-          <img src="./images/img1.png" />
-          <div class="carousel-text hide">
-            <h2 class="text-center">Quanta Web Dept.</h2>
-            <p class="text-center text-muted">
-              Hello everyone, this is quanta web dept.
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item" href="#two!">
-          <img src="images/img2.png" />
-          <div class="carousel-text hide">
-            <h2 class="text-center">Quanta Web Dept.</h2>
-            <p class="text-center text-muted">
-              Hello everyone, this is quanta web dept.
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item" href="#three!">
-          <img src="images/img3.png" />
-          <div class="carousel-text hide">
-            <h2 class="text-center">Quanta Web Dept.</h2>
-            <p class="text-center text-muted">
-              Hello everyone, this is quanta web dept.
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item" href="#four!">
-          <img src="./images/img2.png" />
-          <div class="carousel-text hide">
-            <h2 class="text-center">Quanta Web Dept.</h2>
-            <p class="text-center text-muted">
-              Hello everyone, this is quanta web dept.
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item" href="#five!">
-          <img src="./images/img1.png" />
-          <div class="carousel-text hide">
-            <h2 class="text-center">Quanta Web Dept.</h2>
-            <p class="text-center text-muted">
-              Hello everyone, this is quanta web dept.
-            </p>
+            </nav>
           </div>
         </div>
       </div>
-      <button id="carousel-button-right" onclick="moveNextCarousel()">
-        <img src="images/next.png" alt="" />
-      </button>
+    </section>
+    <!-- END-OF-NAVIGATION BAR -->
+    <!-- HOME -->
+    <section>
+      <div id="home">
+        <div id="home-content">
+          <h1 id="home-heading">Hola Technophiles!!</h1>
+          <div class="home-cont">
+            <h3 class="home-heading2">We LEARN,EXPLORE &</h3>
+            <h3 class="home-heading2">GROW Together</h3>
+          </div>
+        </div>
+        <div id="home-img">
+          <img src="images/Frame 15.png" id="circles" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- END OF HOME -->
+    <div id="line">
+      <img src="images/Frame 14.png" alt="" />
     </div>
-  </section>
-  <!-- EVENTS SECTION ENDING -->
 
-  <section id="team">
-    <div class="d-flex row">
-      <div class="col-4 p-5" id="team-text">
-        <h1>Let's hear from the TEAM</h1>
-        <p class="text-muted">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
-        <button id="team-button" class="btn">Meet The TEAM</button>
+    <!-- ABOUT US -->
+    <section>
+      <h1 class="Main-heading">ABOUT US</h1>
+      <div id="aboutus">
+        <div id="aboutus-img">
+          <img src="images/Frame 3.png" id="" alt="" />
+        </div>
+        <div id="aboutus-content">
+          <p>
+            QUANTA is a part of departmental association, the main motto of
+            quanta is to develop a hands on technical knowledge that encourages
+            a person to move on with logical aptitude and to have a good command
+            over Robotics & Embedded system.
+          </p>
+        </div>
       </div>
-      <div class="col-6">
-        <!-- <img src="./images/circle.png" alt="" /> -->
+    </section>
+    <!-- END OF ABOUT US -->
+    <!-- DEPARTMENTS -->
+    <section>
+      <div id="department">
+        <h1 class="Main-heading">DEPARTMENTS</h1>
+        <div id="department-container">
+          <div id="left-department">
+            <img src="images/Frame 7.png" alt="" />
+            <h4>Technical</h4>
+            <p class="department-contentt">
+              Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit.
+            </p>
+          </div>
+          <div id="mid-department">
+            <img src="images/Frame 8.png" alt="" />
+            <h4>Web Development</h4>
+            <p class="department-contentt">
+              Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. lorem
+            </p>
+          </div>
+          <div id="right-department">
+            <img src="images/Frame 9.png" alt="" />
+            <h4>Design</h4>
+            <p class="department-contentt">
+              Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <!-- END-OF-DEPARTMENTS -->
+    <!-- DEPARTMENTS SECTION ENDING -->
+    <!-- EVENTS SECTION STARTING -->
+    <section class="container my-5" id="event">
+      <h1>Events</h1>
+      <div id="carousel-event" class="d-flex flex-row">
+        <button id="carousel-button-left" onclick="movePrevCarousel()">
+          <img src="images/prev.png" alt="" />
+        </button>
+        <div class="carousel" id="carousel-quanta">
+          <div class="carousel-item" href="#one!">
+            <img src="./images/img1.png" />
+            <div class="carousel-text hide">
+              <h2 class="text-center">Quanta Web Dept.</h2>
+              <p class="text-center text-muted">
+                Hello everyone, this is quanta web dept.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" href="#two!">
+            <img src="images/img2.png" />
+            <div class="carousel-text hide">
+              <h2 class="text-center">Quanta Web Dept.</h2>
+              <p class="text-center text-muted">
+                Hello everyone, this is quanta web dept.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" href="#three!">
+            <img src="images/img3.png" />
+            <div class="carousel-text hide">
+              <h2 class="text-center">Quanta Web Dept.</h2>
+              <p class="text-center text-muted">
+                Hello everyone, this is quanta web dept.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" href="#four!">
+            <img src="./images/img2.png" />
+            <div class="carousel-text hide">
+              <h2 class="text-center">Quanta Web Dept.</h2>
+              <p class="text-center text-muted">
+                Hello everyone, this is quanta web dept.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" href="#five!">
+            <img src="./images/img1.png" />
+            <div class="carousel-text hide">
+              <h2 class="text-center">Quanta Web Dept.</h2>
+              <p class="text-center text-muted">
+                Hello everyone, this is quanta web dept.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button id="carousel-button-right" onclick="moveNextCarousel()">
+          <img src="images/next.png" alt="" />
+        </button>
+      </div>
+    </section>
+    <!-- EVENTS SECTION ENDING -->
 
-  <footer id="quanta-footer" class="col-12">
+    <section id="team">
+      <div class="d-flex row">
+        <div class="col-md-4 col-12 p-5" id="team-text">
+          <h1>Let's hear from the TEAM</h1>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <button id="team-button" class="btn">Meet The TEAM</button>
+        </div>
+        <div class="col-md-6 col-12">
+          <img id="img" src="./images/01.svg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- <footer id="quanta-footer" class="col-12">
     <div id="footer-contact" class="d-flex flex-row col-12 text-white">
       <div class="col-6">
         <h2>Contact Us</h2>
@@ -239,11 +241,24 @@
           </svg></a>
       </div>
     </div>
-  </footer>
+  </footer> -->
 
-  <script src="./js/materialize.js"></script>
-  <script src="./js/bootstrap.js"></script>
-  <script src="./js/carousel.js"></script>
-</body>
-
+    <script src="./js/materialize.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/carousel.js"></script>
+    <script>
+      function startTimer() {
+        var images = [],
+          x = -1;
+        images[0] = "./images/02.svg";
+        images[1] = "./images/03.svg";
+        images[2] = "./images/04.svg";
+        images[3] = "./images/01.svg";
+        setInterval(function () {
+          x = x === images.length - 1 ? 0 : x + 1;
+          document.getElementById("img").src = images[x];
+        }, 3000);
+      }
+    </script>
+  </body>
 </html>

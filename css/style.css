@@ -1,15 +1,12 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-
-
 
 .nav-item {
   font-size: 3.3rem;
@@ -22,90 +19,80 @@ html{
   color: blue;
 }
 .nav-item button {
-    background-image: linear-gradient(#21d4fd, #b721ff);
-border-radius: 1rem;
-    color: white;
-    border: none;
- 
-    width: 130%;
-    font-size: 3rem;
-    font-weight: 500;
-    text-align: center;
-    justify-content: center;
-  }
- 
-.navbar-nav{
+  background-image: linear-gradient(#21d4fd, #b721ff);
+  border-radius: 1rem;
+  color: white;
+  border: none;
+  width: 130%;
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  justify-content: center;
+}
+
+.navbar-nav {
   margin-left: auto;
 }
 
+#home {
+  display: flex;
+  flex-direction: row;
 
-  #home{
-display: flex;
-flex-direction: row;
-
-
-
-margin-top:7rem;
-
+  margin-top: 7rem;
 }
 #home-heading {
-    font-family: Noto Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 3.5vw;
-  
-    background-color: #f3ec78;
-    background-image: linear-gradient(#b721ff, #21d4fd);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-  }
-.home-heading2 {
-    font-family: Noto Sans;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2rem;
- 
-    text-align: left !important;
-  }
-#home-content{
-    /* border: 2px solid black; */
-    width: 60vw;
-    display: flex;
-    flex-direction: column;
-    margin-left: 6rem;
-    
-    justify-content: center;
-}
-#home-img
-{
-    /* border: 2px solid black; */
-    position: relative;
-    width: 40vw;
-    margin-right: 5rem;
-   
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5vw;
 
+  background-color: #f3ec78;
+  background-image: linear-gradient(#b721ff, #21d4fd);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
-#home-image{
-   position: absolute;
-   top:7rem;
-   right: 2rem;
-   width: 100%;
-   
+.home-heading2 {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+
+  text-align: left !important;
 }
-#circles{
-    width: 100%;
- 
-    
+#home-content {
+  /* border: 2px solid black; */
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 6rem;
+
+  justify-content: center;
 }
-.home-cont{
-    /* border: 2px solid black; */
-    align-items: left;
-    margin-top: 0.5rem;
+#home-img {
+  /* border: 2px solid black; */
+  position: relative;
+  width: 40vw;
+  margin-right: 5rem;
 }
-#line img{
-    width: 100%;
+#home-image {
+  position: absolute;
+  top: 7rem;
+  right: 2rem;
+  width: 100%;
+}
+#circles {
+  width: 100%;
+}
+.home-cont {
+  /* border: 2px solid black; */
+  align-items: left;
+  margin-top: 0.5rem;
+}
+#line img {
+  width: 100%;
 }
 .Main-heading {
   text-align: center;
@@ -113,33 +100,32 @@ margin-top:7rem;
   font-size: 4vw;
 }
 
-#about-img{
+#about-img {
   /* border: 2px solid black; */
-  width:30vw !important;
+  width: 30vw !important;
   margin-top: 2vw;
 }
-#about-img img{
+#about-img img {
   width: 100%;
 }
-#aboutus{
+#aboutus {
   /* border: 2px solid black; */
   display: flex;
   flex-direction: row;
   height: 27vw;
 }
-#aboutus-img{
+#aboutus-img {
   /* border: 2px solid black; */
-   width: 30vw;
-   margin-left: 3.7rem;
+  width: 30vw;
+  margin-left: 3.7rem;
 }
 
-#aboutus-content{
+#aboutus-content {
   /* border: 2px solid black; */
   width: 50vw;
   margin-left: 10%;
-  
 }
-#aboutus-img img{
+#aboutus-img img {
   width: 100%;
   height: 100%;
 }
@@ -161,7 +147,7 @@ margin-top:7rem;
   flex-direction: row;
   justify-content: space-around;
 }
-#department-container h4{
+#department-container h4 {
   font-size: 2.2vw;
 }
 #left-department {
@@ -204,31 +190,6 @@ margin-top:7rem;
   font-size: 2rem;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 h1 {
   font-family: "Noto Sans", sans-serif;
@@ -295,30 +256,27 @@ body::-webkit-scrollbar-thumb {
   margin-left: 250px;
   margin-top: 50px;
 }
-@media  only screen and (max-width:992px) {
-  html{
-    font-size:50%;
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 50%;
   }
-  #img-logo img{
+  #img-logo img {
     width: 32vw;
     height: 10vw;
-    
   }
-  .container-fluid{
-     
-     margin-left: 20% !important;
+  .container-fluid {
+    margin-left: 20% !important;
   }
-  .navbar-toggler{
+  .navbar-toggler {
     float: right !important;
   }
 }
-@media  only screen and (max-width:400px) {
-  html{
-    font-size:50%;
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 50%;
   }
-  #img-logo img{
+  #img-logo img {
     width: 50vw;
     height: 10vw;
-    
   }
 }
