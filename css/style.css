@@ -14,6 +14,16 @@ svg {
   width: 32px !important;
   height: 32px !important;
 }
+
+#preloader {
+  text-align: center;
+  margin: 180px 0;
+}
+
+#mainContent {
+  display: none;
+}
+
 .nav-item {
   font-size: 3.3rem;
   margin: 1.9%;
