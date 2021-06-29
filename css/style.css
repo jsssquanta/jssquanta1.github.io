@@ -7,7 +7,13 @@
 html {
   font-size: 62.5%;
 }
-
+a {
+  text-decoration: none !important;
+}
+svg {
+  width: 32px !important;
+  height: 32px !important;
+}
 .nav-item {
   font-size: 3.3rem;
   margin: 1.9%;
@@ -97,7 +103,7 @@ html {
 .Main-heading {
   text-align: center;
   font-weight: 700;
-  font-size: 4vw;
+  font-size: 52px;
 }
 
 #about-img {
@@ -207,7 +213,8 @@ h1 {
 }
 
 #team-text {
-  margin: 10rem 3rem;
+  text-align: center;
+  margin: 10rem 0rem;
 }
 
 #team-button {
@@ -234,7 +241,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background: linear-gradient(180deg, #21d4fd -13.64%, #b721ff 115.15%);
 }
-
+/* 
 #quanta-footer {
   height: 600px;
   background: url(../images/footer.svg) no-repeat;
@@ -255,7 +262,7 @@ body::-webkit-scrollbar-thumb {
 #follow {
   margin-left: 250px;
   margin-top: 50px;
-}
+} */
 @media only screen and (max-width: 992px) {
   html {
     font-size: 50%;

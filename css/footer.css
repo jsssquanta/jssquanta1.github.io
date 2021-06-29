@@ -1,0 +1,32 @@
+#footer {
+  padding: 40px 0px 20px 0px;
+
+  background-image: linear-gradient(#21d4fd, #b721ff);
+}
+
+.subscribe-box {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.subscribe-button {
+  background: #3caea3 !important;
+}
+
+.copyright-text {
+  font-size: 12px;
+  letter-spacing: 0.6px !important;
+}
+
+/* for scroll to top button */
+
+#button {
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  z-index: 100;
+}
+
+footer a:hover {
+  color: black !important;
+}
