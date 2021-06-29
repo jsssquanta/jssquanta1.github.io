@@ -13,7 +13,10 @@
   -webkit-transform-origin: 0% 50%;
   transform-origin: 0% 50%;
 }
-
+#carousel-quanta{
+/* display:none; */
+/* visibility: hidden; */
+}
 .carousel.carousel-slider {
   top: 0;
   left: 0;

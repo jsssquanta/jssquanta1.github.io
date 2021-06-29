@@ -1,13 +1,16 @@
-var images = [],
-  x = -1;
-images[0] = "./images/02.svg";
-images[1] = "./images/03.svg";
-images[2] = "./images/04.svg";
-images[3] = "./images/01.svg";
-function displayNextImage() {
-  x = x === images.length - 1 ? 0 : x + 1;
-  document.getElementById("img").src = images[x];
+const preLoader= () =>{
+  setTimeout(showContent,4000);
 }
+const showContent=()=>{
+  document.getElementById("preloader").style.display="none";
+  document.getElementById('mainContent').style.transition = 'all 2.0s ease';
+  document.getElementById('mainContent').style.display = 'block';
+  startTimer();
+}
+
+
+
+
 
 function startTimer() {
   var images = [],
@@ -21,3 +24,80 @@ function startTimer() {
     document.getElementById("img").src = images[x];
   }, 3000);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var images = [],
+//   x = -1;
+// images[0] = "./images/02.svg";
+// images[1] = "./images/03.svg";
+// images[2] = "./images/04.svg";
+// images[3] = "./images/01.svg";
+// function displayNextImage() {
+//   x = x === images.length - 1 ? 0 : x + 1;
+//   document.getElementById("img").src = images[x];
+// }
+
+// function startTimer() {
+//   var images = [],
+//     x = -1;
+//   images[0] = "./images/02.svg";
+//   images[1] = "./images/03.svg";
+//   images[2] = "./images/04.svg";
+//   images[3] = "./images/01.svg";
+//   setInterval(function () {
+//     x = x === images.length - 1 ? 0 : x + 1;
+//     document.getElementById("img").src = images[x];
+//   }, 3000);
+// }

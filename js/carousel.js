@@ -1,11 +1,11 @@
-document.addEventListener('DOMContentLoaded', function() {
+// document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
     M.Carousel.init(elems, {
       onCycleTo:function(ele){
         ele.childNodes[3].classList.remove('hide');
       }
     });
-  });
+  // });
 
   function moveNextCarousel() {
     var elems = document.querySelector('#carousel-quanta');

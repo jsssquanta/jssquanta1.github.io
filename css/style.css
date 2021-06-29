@@ -8,6 +8,17 @@ html {
   font-size: 62.5%;
 }
 
+#preloader {
+  text-align:center;
+  margin:180px 0;
+}
+
+
+#mainContent{
+ 
+  display:none;
+}
+
 .nav-item {
   font-size: 3.3rem;
   margin: 1.9%;
