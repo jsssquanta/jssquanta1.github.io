@@ -24,7 +24,7 @@
   position: fixed;
   right: 5%;
   bottom: 5%;
-  z-index: 100;
+  z-index: 1;
 }
 
 footer a:hover {

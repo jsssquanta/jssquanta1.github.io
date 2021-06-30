@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 /* CSS FOR EVENT CAROUSEL */
+
 .carousel {
   overflow: hidden;
   position: relative;
@@ -27,7 +28,7 @@
   left: 0;
   right: 0;
   bottom: 20px;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .carousel.carousel-slider .carousel-fixed-item.with-indicators {
@@ -124,7 +125,7 @@
   border: none !important;
   background-color: transparent !important;
   cursor: pointer;
-  z-index: 10;
+  z-index: 1;
 }
 #carousel-event button img {
   width: 40px;
@@ -146,7 +147,6 @@
   font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 52px;
   position: relative;
   top: 150px;
   /* left: 550px; */

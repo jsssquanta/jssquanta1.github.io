@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/carousel.css" />
     <link rel="stylesheet" href="./css/bootstrap.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="shortcut icon" href="#" />
     <title>Quanta JSS</title>
   </head>
 
-  <!-- <body onload="startTimer()"> -->
+<!-- <body> -->
   <body onload="preLoader()">
-    <div id="preloader">
+     <div id="preloader">
       <img src="./images/preloader.gif" width="350px" alt="">
     </div>
-    <div id="mainContent">
-       <!-- NAVIGATION BAR -->
+  <div id="mainContent">
+    <!-- NAVIGATION BAR -->
     <section>
       <div class="container">
         <div class="row">
@@ -69,7 +69,6 @@
         </div>
       </div>
     </section>
-    <!-- END-OF-NAVIGATION BAR -->
     <!-- HOME -->
     <section>
       <div id="home">
@@ -85,7 +84,7 @@
         </div>
       </div>
     </section>
-    <!-- END OF HOME -->
+
     <div id="line">
       <img src="images/Frame 14.png" alt="" />
     </div>
@@ -107,7 +106,7 @@
         </div>
       </div>
     </section>
-    <!-- END OF ABOUT US -->
+
     <!-- DEPARTMENTS -->
     <section>
       <div id="department">
@@ -140,10 +139,10 @@
         </div>
       </div>
     </section>
-    <!-- END-OF-DEPARTMENTS -->
+
     <!-- EVENTS SECTION STARTING -->
     <section class="container my-5" id="event">
-      <h1>EVENTS</h1>
+      <h1 class="Main-heading">EVENTS</h1>
       <div id="carousel-event" class="d-flex flex-row">
         <button id="carousel-button-left" onclick="movePrevCarousel()">
           <img src="images/prev.png" alt="" />
@@ -200,7 +199,6 @@
         </button>
       </div>
     </section>
-    <!-- EVENTS SECTION ENDING -->
 
     <section id="team">
       <div class="d-flex row justify-content-around">
@@ -286,35 +284,15 @@
                 </div>
                 <hr style="background: white;" class="mt-5">
                 <div class="text-center text-white mt-lg-4 pt-lg-2 copyright-text">
-                    2021 Copyright&copy; <span class="font-weight-bold">JSS QUANTA SOCIETY, NOIDA.</span> ALL RIGHTS RESERVED
+                    2021 Copyright&copy; <span class="font-weight-bold">JSS QUANTA SOCIETY, NOIDA.</span>
                 </div>
             </div>
         </footer>
-    
+  </div>
     <script src="./js/materialize.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/carousel.js"></script>
-    <script>
-      function startTimer() {
-        var images = [],
-          x = -1;
-        images[0] = "./images/02.svg";
-        images[1] = "./images/03.svg";
-        images[2] = "./images/04.svg";
-        images[3] = "./images/01.svg";
-        setInterval(function () {
-          x = x === images.length - 1 ? 0 : x + 1;
-          document.getElementById("img").src = images[x];
-        }, 3000);
-      }
-    </script>
-  </body>
-
-</div>
-<script src="./js/materialize.js"></script>
-<script src="./js/bootstrap.js"></script>
-<script src="./js/carousel.js"></script>
-<script src="./js/script.js"></script>
-
+    <script src="./js/script.js"></script>
+</body>
 </body>
 </html>

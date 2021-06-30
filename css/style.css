@@ -4,9 +4,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
-html {
-  font-size: 62.5%;
-}
+
 a {
   text-decoration: none !important;
 }
@@ -16,12 +14,13 @@ svg {
 }
 
 #preloader {
+  visibility: visible;
   text-align: center;
   margin: 180px 0;
 }
 
 #mainContent {
-  display: none;
+  visibility: hidden;
 }
 
 .nav-item {
@@ -113,7 +112,7 @@ svg {
 .Main-heading {
   text-align: center;
   font-weight: 700;
-  font-size: 52px;
+  font-size: 42px;
 }
 
 #about-img {
@@ -236,6 +235,7 @@ h1 {
   font-family: "Roboto", sans-serif;
 }
 body {
+  font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
 body::-webkit-scrollbar-track {
