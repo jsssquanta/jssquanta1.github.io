@@ -2,12 +2,35 @@ const preLoader = () => {
   setTimeout(showContent, 3000);
 };
 const showContent = () => {
-  // document.getElementById("preloader").style.visibility = "hidden";
   document.getElementById("preloader").remove();
+  document.getElementById("mainContent").style.transition = "all 0.9s ease";
   document.getElementById("mainContent").style.visibility = "visible";
-  document.getElementById("mainContent").style.transition = "all 2.0s ease";
+  document.getElementById("mainContent").style.position = "relative";
   startTimer();
 };
+
+// Carousel Section
+
+document.addEventListener("DOMContentLoaded", function () {
+  var elems = document.querySelectorAll(".carousel");
+  M.Carousel.init(elems, {
+    onCycleTo: function (ele) {
+      ele.childNodes[3].classList.remove("hide");
+    },
+  });
+});
+
+function moveNextCarousel() {
+  var elems = document.querySelector("#carousel-quanta");
+  var moveRight = M.Carousel.getInstance(elems);
+  moveRight.next(1);
+}
+
+function movePrevCarousel() {
+  var elems = document.querySelector("#carousel-quanta");
+  var moveLeft = M.Carousel.getInstance(elems);
+  moveLeft.prev(1);
+}
 
 function startTimer() {
   var images = [],

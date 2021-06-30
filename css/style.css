@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
-
+p {
+  font-size: 14px;
+}
 a {
   text-decoration: none !important;
 }
@@ -14,15 +17,28 @@ svg {
 }
 
 #preloader {
-  visibility: visible;
-  text-align: center;
-  margin: 180px 0;
+  /* visibility: visible; */
+  /*text-align: center;
+ margin: 180px 0; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 90vh;
 }
 
 #mainContent {
+  /* visibility: hidden; */
+  -webkit-transition: all 0.9s ease;
+  transition: all 0.9s ease;
   visibility: hidden;
+  position: fixed;
 }
-
 .nav-item {
   font-size: 3.3rem;
   margin: 1.9%;
@@ -150,7 +166,7 @@ svg {
   font-family: Noto Sans;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.7vw;
+  font-size: 28px;
 }
 #department {
   /* border: 2px solid black; */
@@ -193,16 +209,17 @@ svg {
   margin: auto;
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 1.2rem;
+  font-size: 14px;
 }
 .department-contentt {
+  font-family: "Merriweather", serif;
   justify-content: center;
   align-items: center;
   margin: auto;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 1%;
-  font-size: 2rem;
+  font-size: 28px;
   text-align: center;
 }
 
@@ -251,28 +268,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background: linear-gradient(180deg, #21d4fd -13.64%, #b721ff 115.15%);
 }
-/* 
-#quanta-footer {
-  height: 600px;
-  background: url(../images/footer.svg) no-repeat;
-  background-size: cover;
-}
 
-#footer-contact {
-  position: relative;
-  top: 450px;
-  left: 50px;
-}
-#footer-contact div h2 {
-  font-size: 48px;
-}
-#footer-contact div p {
-  font-size: 20px;
-}
-#follow {
-  margin-left: 250px;
-  margin-top: 50px;
-} */
 @media only screen and (max-width: 992px) {
   html {
     font-size: 50%;
@@ -296,4 +292,18 @@ body::-webkit-scrollbar-thumb {
     width: 50vw;
     height: 10vw;
   }
+}
+
+.card-shadow {
+  margin: 20px;
+  padding: 20px;
+}
+.card-shadow:hover {
+  border-radius: 25px;
+
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+}
+
+#img {
+  padding: 100px;
 }
