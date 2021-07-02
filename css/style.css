@@ -312,3 +312,10 @@ body::-webkit-scrollbar-thumb {
 #img {
   padding: 100px;
 }
+.navbar{
+  position: fixed;
+  top:0;
+}
+.mainContent{
+  padding-top:30px ;
+}
