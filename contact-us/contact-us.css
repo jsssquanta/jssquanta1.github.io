@@ -1,0 +1,76 @@
+
+.contact-form{
+    width:494px;
+    height:433px;
+}
+.contact-form input{
+    margin:10px 0;
+    height: 58.45px;
+    width:100%;
+    border: 3px solid #21D4FD;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    outline:none;
+}
+
+
+.contact-form textarea{
+    margin:10px 0;
+    width:100%;
+    border: 3px solid #21D4FD;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 10px;
+    height: 184.03px;
+    outline:none;
+}
+.contact-form button{
+    width: 247px;
+    height: 65.08px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#ffffff;
+    
+    background: linear-gradient(90deg, #21D4FD 0.56%, #B721FF 99.38%);
+    border-radius: 25px;
+    border:none;
+    cursor: pointer;
+
+}
+.contact-form button:hover{
+    background: linear-gradient(
+        90deg
+        , #4eafc5 0.56%, #bc47f5 99.38%);
+}
+
+@media only screen and (max-width: 500px){
+    .contact-form{
+        width:98%;
+    }
+    .contact-form input{
+        height:unset;
+    }
+    .contact-form textarea{
+        height:unset;
+    }
+    .contact-form button{
+        height:45px;
+    }
+
+} 
