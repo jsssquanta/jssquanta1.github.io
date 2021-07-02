@@ -4,26 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quanta | Resources</title>
+    <title>Resources</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/style.css" />
+
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+  <link rel="stylesheet" href="./css/navbar.css" />
 </head>
 <body>
-    <header>
+    <header >
         <nav >
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
-              <img src="Assets/menu.svg" class="icon" alt="">
+              <img src="../images/list-ui-alt.png" class="icon" alt="">
             </label>
-            <label class="logo"><img class="logopng" src="Assets/Logo.png" alt="Logo"></label>
+            <label class="logo"><img class="logopng" src="../images/Logo.png" alt="Logo"></label>
             <ul class="navul">
-                <li><a class="navbtn" href="#" >Home</a></li>
-                    <li><a class="navbtn" href="#" >Team</a></li>
-                    <li><a href="#" class="active">Resources</a></li>
-                    <li><a class="navbtn" href="#">Projects</a></li>
-                    <li><a class="navbtn" href="#">Contact Us</a></li>
+                <li><a  href="/"class="navbtn" >Home</a></li>
+                    <li><a class="navbtn" href="../team/team.html" >Team</a></li>
+                    <li><a href="./resources/index.html" class="navbtn" style="color: rgb(55, 147, 201);">Resources</a></li>
+                    <!-- <li><a class="navbtn" href="#">Projects</a></li> -->
+                    <li><a  class="active" href="../contact-us/contact-us.html">Contact Us</a></li>
             </ul>
         </nav>
-    </header>
+      </header>
     <div class="mainline">
         <h2 class="Tagline">Resources</h2>
     </div> 
@@ -86,6 +92,8 @@
             </div>
         </div>
     </div>
+    
+    
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script>
         VanillaTilt.init(document.querySelectorAll(".card"),{
@@ -95,5 +103,6 @@
         "max-glare": 1,
 	});
     </script>
+    
 </body>
 </html>
