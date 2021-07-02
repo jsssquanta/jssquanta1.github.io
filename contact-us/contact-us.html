@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./contact-us.css">
+</head>
+<body>
+    <div class="container">
+        <div class="contact-form">
+            <form id="contact-us-form"  onsubmit="submitHanlder(event)" >
+              <input name="name" id="name" placeholder="Name" type="text" required/>
+              <input name="email" id="email" placeholder="Enter your Email" type="email" required/>
+              <textarea name="message" id="message" placeholder="How can we help you..." rows="4" required></textarea>
+              <button type="submit" class="submit-btn">SEND </button>
+            </form>
+          </div>
+    </div>
+
+    <script>
+      function submitHanlder(e){
+        e.preventDefault();
+        const name=document.getElementById("name").value;
+        const email=document.getElementById("email").value;
+        const message=document.getElementById("message").value;
+          
+          const formData={
+            name,email,message
+          }
+          // console.log(formData)
+
+          let xhr= new XMLHttpRequest();
+          xhr.open('POST','/connect');
+          xhr.setRequestHeader("content-type","application/json");
+          xhr.onload= function(){
+            console.log(xhr.responseText);
+            if(xhr.responseText== "success"){
+              alert("Thanks for contacting us..");
+              name="";
+              email="";
+              message="";
+            }
+            else{
+              alert("something went wrong..");
+            }
+          }
+          xhr.send(JSON.stringify(formData));
+        }
+    </script>
+</body>
+</html>
