@@ -106,8 +106,9 @@ svg {
 #home-img {
   /* border: 2px solid black; */
   position: relative;
-  width: 40vw;
+  width: 50vw;
   margin-right: 5rem;
+  margin-top: -5rem;
 }
 #home-image {
   position: absolute;
@@ -129,8 +130,8 @@ svg {
 .Main-heading {
   font-family: noto-sans;
   text-align: center;
-  font-weight: 700;
-  font-size: 42px;
+  font-weight: 900;
+  font-size: 52px;
 }
 
 #about-img {

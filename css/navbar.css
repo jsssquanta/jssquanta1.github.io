@@ -5,7 +5,7 @@ header nav {
 
 label.logo {
   color: black;
-  font-size: 1.4em;
+  font-size: 0.9em;
   font-weight: 700;
   line-height: 80px;
   padding: 0 70px;
@@ -26,9 +26,10 @@ nav ul li {
 nav ul li a {
   color: black;
   text-transform: uppercase;
-  font-size: 1.6rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 550;
   font-family: noto-sans;
+
   padding: 7px 13px;
   border-radius: 3px;
 }
@@ -47,6 +48,7 @@ a.active,
     rgba(33, 212, 253, 0.75) 0%,
     rgba(183, 33, 255, 0.75) 100%
   );
+  font-size:25px;
   border-radius: 15px;
   color: white;
 }
@@ -137,7 +139,7 @@ header {
   }
 }
 .logopng{
-  width: 200px;
+  width: 260px;
   margin-top: 20px;
 }
 
