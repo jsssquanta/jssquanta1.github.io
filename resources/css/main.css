@@ -11,7 +11,7 @@
 
 body {
   font-family: 'Poppins';
-  background-image: url(../Assets/Bg.jpg);
+  /* background-image: url(../Assets/Bg.jpg); */
   background-size: 100%;
 }
 
@@ -49,10 +49,11 @@ nav ul li a {
   font-family: noto-sans;
 }
 
-a.active, .navbtn:hover {
+a.active {
   background: -webkit-gradient(linear, left top, right top, from(rgba(33, 212, 253, 0.75)), to(rgba(183, 33, 255, 0.75)));
   background: linear-gradient(90deg, rgba(33, 212, 253, 0.75) 0%, rgba(183, 33, 255, 0.75) 100%);
   border-radius: 15px;
+  
   color: white;
 }
 

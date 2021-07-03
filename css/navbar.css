@@ -34,8 +34,8 @@ nav ul li a {
   border-radius: 3px;
 }
 
-a.active,
-.navbtn:hover {
+a.active
+ {
   background: -webkit-gradient(
     linear,
     left top,
@@ -49,6 +49,7 @@ a.active,
     rgba(183, 33, 255, 0.75) 100%
   );
   font-size:25px;
+
   border-radius: 15px;
   color: white;
 }
@@ -115,7 +116,7 @@ header {
   nav ul li a {
     font-size: 20px;
   }
-  a:hover,
+ 
   a.active {
     background: none;
     color: black;
