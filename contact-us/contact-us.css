@@ -1,21 +1,57 @@
 
+.heading h3{
+    background:-webkit-linear-gradient(rgba(183, 33, 255, 1),rgba(33, 212, 253, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    margin-bottom: 42px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 77px;
+}
+
+.right-logo{
+    position:relative;
+    width: 351px;
+    
+}
+.right-logo .circles{
+    width: 100%;
+}
+.right-logo .humans{
+    width:87%;
+    position: absolute;
+    left: 33px;
+    top: 64px;
+}
+
 .contact-form{
-    width:494px;
-    height:433px;
+    width: 373px;
+    text-align:center;
 }
 .contact-form input{
     margin:10px 0;
-    height: 58.45px;
+    height: 41.45px;
     width:100%;
-    border: 3px solid #21D4FD;
+    border: 3px solid rgba(0, 0, 0, 0.6);
     border-radius: 10px;
+   
     font-family: Roboto;
-    font-size: 28px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 33px;
+    line-height: 23px;
     letter-spacing: 0em;
-    text-align: left;
+    padding:20px;
+
+    color: rgba(0, 0, 0, 0.5);
     outline:none;
 }
 
@@ -23,21 +59,23 @@
 .contact-form textarea{
     margin:10px 0;
     width:100%;
-    border: 3px solid #21D4FD;
+    border: 3px solid rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
     font-family: Roboto;
-    font-size: 28px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 33px;
-    letter-spacing: 0em;
-    text-align: left;
-    border-radius: 10px;
-    height: 184.03px;
+    line-height: 23px;
+    letter-spacing: 0em;   
+    padding:20px;
+    height: 124px;
+    color: rgba(0, 0, 0, 0.5);
     outline:none;
 }
 .contact-form button{
-    width: 247px;
-    height: 65.08px;
+    
+    Width: 165.5px;
+    Height: 46.95px;
     font-family: Roboto;
     font-size: 28px;
     font-style: normal;
@@ -62,15 +100,30 @@
 @media only screen and (max-width: 500px){
     .contact-form{
         width:98%;
+        margin-bottom: 30px;
     }
-    .contact-form input{
-        height:unset;
-    }
-    .contact-form textarea{
-        height:unset;
-    }
+
     .contact-form button{
         height:45px;
+    }
+    .container{
+        flex-direction: column-reverse;
+    }
+
+
+    .right-logo{
+        width:100%;
+        margin-bottom: 63px;
+    }
+    .right-logo .circles{
+        width:100%;
+
+    }
+    .right-logo .humans{
+        width: 87%;
+        position: absolute;
+        left: 22px;
+        top: 72px;
     }
 
 } 
