@@ -19,17 +19,12 @@
 
 .right-logo{
     position:relative;
-    width: 351px;
+    width: 40%;
+   top:-2rem;
     
 }
 .right-logo .circles{
     width: 100%;
-}
-.right-logo .humans{
-    width:87%;
-    position: absolute;
-    left: 33px;
-    top: 64px;
 }
 
 .contact-form{
@@ -97,7 +92,7 @@
         , #4eafc5 0.56%, #bc47f5 99.38%);
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 770px){
     .contact-form{
         width:98%;
         margin-bottom: 30px;

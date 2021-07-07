@@ -119,6 +119,10 @@ svg {
 #circles {
   width: 100%;
 }
+#circless {
+  width: 90%;
+  /* height:90%; */
+}
 .home-cont {
   /* border: 2px solid black; */
   align-items: left;
