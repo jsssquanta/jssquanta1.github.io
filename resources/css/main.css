@@ -46,7 +46,7 @@ nav ul li a {
   font-size: 1.4rem;
   padding: 7px 13px;
   border-radius: 3px;
-  font-family: noto-sans;
+  font-family: "poppins";
 }
 
 a.active {
@@ -313,3 +313,38 @@ header {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+
+
+
+
+.gif{
+  width: 70px;
+  /* border-radius: 10em; */
+}
+
+.gif-dsn{
+  width: 80px;
+  /* border-radius: 10em; */
+}
+
+.gif-coding{
+  margin-bottom: 10px;
+  width: 100px;
+  border-radius: 100vh;
+}
+
+.gif-automation{
+  width: 120px;
+  border-radius: 100vh;
+}
+
+.gif-hsi{
+  width: 80px;
+  border-radius: 100vh;
+}
+
+/* .hero{
+  background-color: #fff;
+} */
