@@ -132,10 +132,10 @@ svg {
   width: 100%;
 }
 .Main-heading {
-  font-family: noto-sans;
+  font-family: "Noto Sans", sans-serif;
   text-align: center;
   font-weight: 900;
-  font-size: 52px;
+  font-size: 2.5rem;
 }
 
 #about-img {
@@ -237,7 +237,7 @@ h1 {
   font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 52px;
+  font-size: 2.5rem;
 }
 #team {
   margin-bottom: 10rem;
@@ -258,7 +258,7 @@ h1 {
   color: white;
   width: 200px;
   height: 60px;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
 }
 body {
@@ -271,7 +271,7 @@ body::-webkit-scrollbar-track {
   background-color: #fff;
 }
 body::-webkit-scrollbar {
-  width: 15px;
+  width: 10px;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -293,6 +293,13 @@ body::-webkit-scrollbar-thumb {
   .navbar-toggler {
     float: right !important;
   }
+  
+.card-shadow {
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+  border-radius: 25px;
+}
 }
 @media only screen and (max-width: 400px) {
   html {
@@ -304,18 +311,9 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-.card-shadow {
-  margin: 20px;
-  padding: 20px;
-}
-.card-shadow:hover {
-  border-radius: 25px;
-
-  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
-}
 
 #img {
-  padding: 100px;
+  padding: 70px;
 }
 .navbar{
   position: fixed;

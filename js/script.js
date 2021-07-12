@@ -39,6 +39,7 @@ function startTimer() {
   images[1] = "./images/03.svg";
   images[2] = "./images/04.svg";
   images[3] = "./images/01.svg";
+  images[4] = "./images/05.svg";
   setInterval(function () {
     x = x === images.length - 1 ? 0 : x + 1;
     document.getElementById("img").src = images[x];
