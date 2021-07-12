@@ -18,12 +18,15 @@
 }
 
 .right-logo{
+    right:0;
+    left: 0;
     position:relative;
     width: 40%;
+  
    top:-2rem;
     
 }
-.right-logo .circles{
+.right-logo .chatbot{
     width: 100%;
 }
 
@@ -92,7 +95,7 @@
         , #4eafc5 0.56%, #bc47f5 99.38%);
 }
 
-@media only screen and (max-width: 770px){
+@media only screen and (max-width: 870px){
     .contact-form{
         width:98%;
         margin-bottom: 30px;

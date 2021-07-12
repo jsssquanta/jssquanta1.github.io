@@ -59,7 +59,7 @@ text-align: center;
 .Main-heading{
 padding-top: 40px;
 }
-.content__overlay {
+/* .content__overlay {
     position: absolute;
     border-radius: 1px;
     display: flex;
@@ -84,7 +84,7 @@ padding-top: 40px;
 .upper-card:hover .content__overlay {
     bottom: 15%;
     height: 85%;
-}
+} */
 @media screen and (max-width:900px) {
     .upper-card:hover .content__overlay {
         bottom: 15%;
