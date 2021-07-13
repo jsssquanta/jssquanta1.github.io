@@ -28,12 +28,13 @@ nav ul li a {
   text-transform: uppercase;
   font-size: 1.2rem;
   font-weight: 550;
-  font-family: noto-sans;
-
+  font-family: "Noto Sans", sans-serif;
   padding: 7px 13px;
   border-radius: 3px;
 }
-
+nav ul li a:hover{
+  color: #21d4fd ;
+}
 a.active
  {
   background: -webkit-gradient(
@@ -48,10 +49,14 @@ a.active
     rgba(33, 212, 253, 0.75) 0%,
     rgba(183, 33, 255, 0.75) 100%
   );
-  font-size:25px;
+  font-size:1.2rem;
 
   border-radius: 15px;
   color: white;
+}
+
+a.active:hover{
+  color:white;
 }
 
 .checkbtn {

@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -72,7 +75,7 @@ svg {
   margin-top: 7rem;
 }
 #home-heading {
-  font-family: Noto Sans;
+  font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 3.5vw;
@@ -86,7 +89,7 @@ svg {
   -moz-text-fill-color: transparent;
 }
 .home-heading2 {
-  font-family: Noto Sans;
+  font-family: "Noto Sans", sans-serif;
   color: #21D4FD;
   font-style: normal;
   font-weight: 700;
@@ -171,7 +174,7 @@ svg {
 #aboutus-content p {
   margin-top: 7vw;
   color: #3a3333;
-  font-family: Noto Sans;
+  font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
@@ -189,7 +192,8 @@ svg {
 }
 #department-container h4 {
   font-size: 2rem;
-  font-family: merriweateh;
+  font-family: 'Merriweather', serif;
+  font-weight: 100;
 }
 #left-department {
   /* border: 2px solid black; */
@@ -222,7 +226,6 @@ svg {
   font-size: 5px;
 }
 .department-contentt {
-  font-family: "Merriweather", serif;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -231,6 +234,13 @@ svg {
   margin-top: 1%;
   font-size: 20px;
   text-align: center;
+}
+
+.card-shadow:hover{
+  /* margin: 10px; */
+  /* padding: 20px; */
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+  border-radius: 20px;
 }
 
 h1 {
@@ -243,7 +253,6 @@ h1 {
   margin-bottom: 10rem;
 }
 #team p {
-  font-family: "Merriweather", serif;
   font-weight: 400;
   font-size: 15px;
 }
@@ -262,7 +271,7 @@ h1 {
   font-family: "Roboto", sans-serif;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   overflow-x: hidden;
 }
 body::-webkit-scrollbar-track {
@@ -295,7 +304,7 @@ body::-webkit-scrollbar-thumb {
   }
   
 .card-shadow {
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
   border-radius: 25px;
