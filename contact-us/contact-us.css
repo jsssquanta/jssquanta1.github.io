@@ -31,7 +31,7 @@
 }
 
 .contact-form{
-    width: 373px;
+    width: 443px;
     text-align:center;
 }
 .contact-form input{
@@ -97,7 +97,10 @@
 
 @media only screen and (max-width: 870px){
     .contact-form{
-        width:98%;
+        width:88%;
+        justify-content: center;
+        margin-left:6%;
+        align-items: center;
         margin-bottom: 30px;
     }
 
@@ -110,7 +113,8 @@
 
 
     .right-logo{
-        width:100%;
+        width:90%;
+        margin-left: 5%;
         margin-bottom: 63px;
     }
     .right-logo .circles{
