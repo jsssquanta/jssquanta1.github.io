@@ -13,7 +13,7 @@
 
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 77px;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .contact-form{
-    width: 443px;
+    width: 500px;
     text-align:center;
 }
 .contact-form input{
