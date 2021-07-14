@@ -4,7 +4,9 @@
     margin-bottom:10px;
     
 }
-
+#team-content{
+    margin-bottom:10rem !important;
+}
 .card{
     /* width: 215px; */
 width:100%;
@@ -74,6 +76,7 @@ margin:1rem 0;
 }
 .Main-heading{
 padding-top: 40px;
+margin: 3rem 0rem;
 }
 /* .content__overlay {
     position: absolute;
