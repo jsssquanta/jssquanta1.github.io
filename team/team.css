@@ -1,83 +1,82 @@
-
-.container{
-    margin-top:20px;
-    margin-bottom:10px;
-    
+.container {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
-#team-content{
-    margin-bottom:10rem !important;
+.team-cards {
+  padding: 0 10rem;
 }
-.card{
-    /* width: 215px; */
-width:100%;
-height: 353.28px;
-border:none;
-border-radius: 1.5rem;
-box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+#team-content {
+  margin-bottom: 10rem !important;
 }
-.fa-linkedin{
-    color: #21d4fd ;
+.card {
+  /* width: 215px; */
+  width: 100%;
+  height: 353.28px;
+  border: none;
+  border-radius: 1.5rem;
+  box-shadow: 1px 0rem 1rem rgb(95 138 254 / 74%) !important;
 }
-.fa-instagram{
-    color: #fd2146;
+.fa-linkedin {
+  color: #21d4fd;
 }
-.fa-github{
-    color: #000;
+.fa-instagram {
+  color: #fd2146;
 }
-.card .card-image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.fa-github {
+  color: #000;
 }
-
-.card-footer{
-    background-color: transparent !important;
+.card .card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.card .card-image img{
-    border-radius:50%;
-    width: 150px;
-    height: 150px;
-    margin-top: 1rem;
+.card-footer {
+  background-color: transparent !important;
 }
 
- .card .card-body h5{
-    font-family: Merriweather;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height:1.5rem;
-    letter-spacing: 0em;
-    text-align: center;
-       
+.card .card-image img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: 1rem;
 }
 
-
-.card .card-body p{
-font-family: Roboto;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5rem;
-letter-spacing: 0em;
-text-align: center;
-margin:1rem 0;
+.card .card-body h5 {
+  font-family: Merriweather;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
- .card .card-body img{
-    width: 96%;
-    height:12px;
+.card .card-body p {
+  font-family: Roboto;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 1rem 0;
 }
-.card-footer{
-    text-align: center;
+
+.card .card-body img {
+  width: 96%;
+  height: 12px;
 }
-.card .card-footer i{
-    margin:0 1rem;
-    font-size:2.4rem;
+.card-footer {
+  text-align: center;
 }
-.Main-heading{
-padding-top: 40px;
-margin: 3rem 0rem;
+.card .card-footer i {
+  margin: 0 1rem;
+  font-size: 2.4rem;
+}
+.Main-heading {
+  padding-top: 40px;
+  margin: 3rem 0rem;
 }
 /* .content__overlay {
     position: absolute;
@@ -105,14 +104,17 @@ margin: 3rem 0rem;
     bottom: 15%;
     height: 85%;
 } */
-@media screen and (max-width:900px) {
-    .upper-card:hover .content__overlay {
-        bottom: 15%;
-        height: 85%;
-    }
-    .card .card-image img{
-        border-radius:50%;
-        width: 100px;
-        height: 100px;
-    }
+@media screen and (max-width: 1100px) {
+  .upper-card:hover .content__overlay {
+    bottom: 15%;
+    height: 85%;
+  }
+  .card .card-image img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  .team-cards {
+    padding: 0 3rem;
+  }
 }
